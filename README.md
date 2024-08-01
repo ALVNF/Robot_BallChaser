@@ -17,6 +17,8 @@ After that, clone this repository inside the /src folder.
 ```console
 $ cd src/
 $ git clone https://github.com/ALVNF/Robot_BallChaser.git
+$ cd src/
+$ mv ball_chaser my_robot ../
 ```
 Finally you should be able to build the packages.
 ```console
