@@ -1,5 +1,5 @@
 # Robot Ball Chaser
-
+![Example](https://github.com/ALVNF/Robot_BallChaser/blob/main/robot.gif)
 ## Introduction
 This is a small robotics initiation project, with the intention of improving my skills in this field.
 Using technologies such as **ROS** and **Gazebo Classic**.
