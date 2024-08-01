@@ -17,8 +17,9 @@ After that, clone this repository inside the /src folder.
 ```console
 $ cd src/
 $ git clone https://github.com/ALVNF/Robot_BallChaser.git
-$ cd src/
-$ mv ball_chaser my_robot ../
+$ mv Robot_BallChaser/src/ball_chaser .
+$ mv Robot_BallChaser/src/my_robot/ .
+$ rm -rf Robot_BallChaser/
 ```
 Finally you should be able to build the packages.
 ```console
@@ -41,7 +42,6 @@ After running the ball_chaser.launch, the robot will look for a white point and 
 
 If you want to see the robot's point of view, open a new terminal also inside the catkin_ws folder
 ```console
-$ source devel/setup.bash
 $ rosrun rqt_image_view rqt_image_view
 ```
 Make sure that the image path is **/camera/rgb/image_raw**
